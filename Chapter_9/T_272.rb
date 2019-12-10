@@ -1,9 +1,9 @@
-def task_272()
+def T()
   a = 0.0
   for i in 1901..1950
     a += i
-    a_average = a/50
+    av = a/50
   end
-  puts a_average
+  puts av
 end
-task_272()
+T()
